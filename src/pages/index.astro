@@ -4,7 +4,7 @@ import SiteHeader from "../components/SiteHeader.astro";
 import SiteFooter from "../components/SiteFooter.astro";
 import { products } from "../data/products.js";
 
-const categories = ["All deals", "Electronics", "Home", "Fashion", "Beauty"];
+const categories = ["All deals", "Electronics", "Gadgets", "Home", "Fashion", "Beauty"];
 const money = (value) => new Intl.NumberFormat("en-IN", {
   style: "currency",
   currency: "INR",
@@ -12,7 +12,7 @@ const money = (value) => new Intl.NumberFormat("en-IN", {
 }).format(value);
 ---
 <BaseLayout
-  title="DealNest India | Hand-picked Product Deals"
+  title="Re-Matter India | Hand-picked Product Deals"
   description="Browse hand-picked product deals across electronics, home, fashion and beauty."
 >
   <SiteHeader />
