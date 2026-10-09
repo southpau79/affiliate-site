@@ -1,0 +1,37 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import SiteFooter from "../components/SiteFooter.astro";
+---
+<BaseLayout
+  title="Privacy Policy | DealNest India"
+  description="Privacy policy starter for DealNest India."
+>
+  <SiteHeader />
+  <main class="container legal-page">
+    <p class="eyebrow">YOUR PRIVACY</p>
+    <h1>Privacy policy</h1>
+    <p>This is a starter privacy notice and must be reviewed and completed before launch. Replace this text with a policy that accurately reflects your website and business.</p>
+    <h2>Information collected</h2>
+    <p>Describe any information you collect, such as contact form submissions, analytics events, server logs, cookies, or newsletter sign-ups. If you do not collect a category of information, do not claim that you do.</p>
+    <h2>Affiliate links and third parties</h2>
+    <p>When you follow a retailer link, you leave this website and are subject to the retailer's privacy policy and terms. Affiliate partners may use tracking links or cookies to attribute purchases, according to their own policies.</p>
+    <h2>Contact and updates</h2>
+    <p>Add your business contact details, the method for privacy-related requests, the effective date, retention practices, and any disclosures required by applicable law.</p>
+    <a class="back-link" href="/">← Back to deals</a>
+  </main>
+  <SiteFooter />
+</BaseLayout>
+<style>
+  :global(body) { margin: 0; color: #102a43; font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+  :global(.container) { width: min(800px, calc(100% - 40px)); margin-inline: auto; }
+  :global(.site-header), :global(.site-footer) { padding: 22px 0; border-bottom: 1px solid #e3eaf1; }
+  :global(.header-inner), :global(.footer-inner) { width: min(1120px, calc(100% - 40px)); margin: auto; display: flex; justify-content: space-between; gap: 20px; }
+  :global(.brand) { font-weight: 800; text-decoration: none; } :global(nav) { display: flex; gap: 16px; } :global(nav a) { color: #486581; text-decoration: none; font-size: .9rem; }
+  .legal-page { padding-block: 65px 90px; min-height: 65vh; }
+  .eyebrow { color: #bf7d00; font-size: .75rem; font-weight: 800; letter-spacing: .14em; }
+  h1 { font-size: clamp(2.3rem, 6vw, 3.7rem); letter-spacing: -.05em; } h2 { margin-top: 32px; }
+  p { color: #486581; font-size: 1.05rem; line-height: 1.8; }
+  .back-link { display: inline-block; margin-top: 20px; color: #102a43; font-weight: 700; }
+  :global(.footer-inner) { color: #829ab1; font-size: .8rem; }
+</style>

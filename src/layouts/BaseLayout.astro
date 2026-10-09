@@ -1,0 +1,24 @@
+---
+const {
+  title = "DealNest India | Product Deals & Offers",
+  description = "Discover hand-picked shopping deals in India.",
+  canonicalPath = Astro.url.pathname
+} = Astro.props;
+
+const canonical = new URL(canonicalPath, Astro.site ?? Astro.url.origin).toString();
+---
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="theme-color" content="#102a43" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
