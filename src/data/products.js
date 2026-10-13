@@ -11,17 +11,7 @@ export const products = [
     image: "https://amazon-men/P1.jpg",
     affiliateUrl: "https://amzn.to/4yhwcCb",
     badge: "Exclusive deal",
-    description: "🎒 Built for the daily grind
-
-💧 Water-resistant. Oxford cloth that handles light rain and splashes. Not a submarine, so don’t test it. (Water-resistant, not waterproof.)
-
-👟 Dry and wet kept apart. A separate shoe compartment and a wet-proof inner pocket. Muddy boots stay away from your clean kit.
-
-💪 Wider straps, less strain. The drawstring straps are broader, so the weight sits better on your shoulders. Small comfort, big difference by kilometre five.
-
-📦 Room for the full kit. Training gear, swim essentials, even a basketball. Pack once, move on.
-
-😎 Clean, simple look. No fuss. Works for the gym, the trail head or the commute, for men and women."
+    description: "🎒 Built for the daily grind 💧 Water-resistant. 💪 Wider straps, less strain. 📦 Room for the full kit. 😎 Clean, simple look."
   },
   {
     id: "sample-kitchen-appliance",
