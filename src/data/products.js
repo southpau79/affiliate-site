@@ -14,16 +14,16 @@ export const products = [
     description: "🎒 Built for the daily grind 💧 Water-resistant. 💪 Wider straps, less strain. 📦 Room for the full kit. 😎 Clean, simple look."
   },
   {
-    id: "sample-kitchen-appliance",
-    title: "Kitchen Appliance — Sample Listing",
-    merchant: "Example Store",
+    id: "Torch",
+    title: "Waterproof LED Torch",
+    merchant: "Amazon Store",
     category: "Home",
-    price: 1899,
-    originalPrice: 2499,
-    image: "https://placehold.co/800x600/f1f5f9/334155?text=Home",
-    affiliateUrl: "https://example.com/",
-    badge: "Sample deal",
-    description: "Illustrative listing. Replace with verified product details."
+    price: 999,
+    originalPrice: 1999,
+    image: "https://pub-9af3177c308e468995adbdecb55e37ff.r2.dev/P2.png",
+    affiliateUrl: "https://link.amazon/B0g8pMeMN",
+    badge: "Sale",
+    description: "Light far. Light wide. Zoom from spotlight to floodlight. Know your battery. Digital display, USB rechargeable. Built tough. Aluminium body for rough days."
   },
   {
     id: "sample-backpack",
