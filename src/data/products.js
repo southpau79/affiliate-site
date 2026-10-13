@@ -26,27 +26,27 @@ export const products = [
     description: "Light far. Light wide. Zoom from spotlight to floodlight. Know your battery. Digital display, USB rechargeable. Built tough. Aluminium body for rough days."
   },
   {
-    id: "sample-backpack",
-    title: "Everyday Backpack — Sample Listing",
-    merchant: "Example Store",
-    category: "Fashion",
-    price: 999,
-    originalPrice: 1499,
-    image: "https://placehold.co/800x600/f1f5f9/334155?text=Backpack",
-    affiliateUrl: "https://example.com/",
-    badge: "Sample deal",
-    description: "Illustrative listing. Replace with verified product details."
+    id: "Pen",
+    title: "Tactical Pen",
+    merchant: "Amazon Store",
+    category: "Outdoor",
+    price: 5873,
+    originalPrice: 12686,
+    image: "https://pub-9af3177c308e468995adbdecb55e37ff.r2.dev/P3.png",
+    affiliateUrl: "https://link.amazon/B0hEOUNV2",
+    badge: "Limited Offer",
+    description: "Pen. Compass. Light. Saw. Wrench. Screwdriver. Bottle opener. Fire-starter. One pocket. Zero fuss."
   },
   {
-    id: "sample-skincare",
-    title: "Skincare Essentials — Sample Listing",
-    merchant: "Example Store",
-    category: "Beauty",
+    id: "Paracord",
+    title: "Paracord Survival Bracelet",
+    merchant: "Amazon Store",
+    category: "Jewelry",
     price: 599,
-    originalPrice: 799,
-    image: "https://placehold.co/800x600/f1f5f9/334155?text=Beauty",
-    affiliateUrl: "https://example.com/",
-    badge: "Sample deal",
-    description: "Illustrative listing. Replace with verified product details."
+    originalPrice: 999,
+    image: "https://pub-9af3177c308e468995adbdecb55e37ff.r2.dev/P4.png",
+    affiliateUrl: "https://link.amazon/B057Oih8y",
+    badge: "Unique Deal",
+    description: "Wear it. Unravel it. Use it. Brass shackle. Screw-pin lock. Small gear. Big backup."
   }
 ];
