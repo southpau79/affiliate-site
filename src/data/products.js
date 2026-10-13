@@ -8,7 +8,7 @@ export const products = [
     category: "Outdoor",
     price: 649,
     originalPrice: 999,
-    image: "https://re-matter.com/P1.jpg",
+    image: "https://images.re-matter.com/P1.jpg",
     affiliateUrl: "https://amzn.to/4yhwcCb",
     badge: "Exclusive deal",
     description: "🎒 Built for the daily grind 💧 Water-resistant. 💪 Wider straps, less strain. 📦 Room for the full kit. 😎 Clean, simple look."
